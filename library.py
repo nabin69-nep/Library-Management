@@ -21,10 +21,10 @@ class Library:
 a=int(input("Enter your choice\n 1.Add Books\n 2.View Books\n"))
 
 if(a==1):
-    title=input("Enter Title of your Books ")
-    author=input("Enter Author of your Books ")
-    genre=input("Enter Genre of your Books ")
-    year=input("Enter Year of your Books ")
+    title=input("Enter Title of your Book: ")
+    author=input("Enter Author of your Book: ")
+    genre=input("Enter Genre of your Book: ")
+    year=input("Enter release Year of your Book: ")
     Library(title,author,genre,year)
 
 elif(a==2):
